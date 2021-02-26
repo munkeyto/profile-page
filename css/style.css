@@ -1,37 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
 
+/* stylesheet components */
+@import url('components/container.css');
+@import url('components/header.css');
+@import url('components/section.css');
+@import url('components/card.css');
+@import url('components/footer.css');
+
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-  background-color: #f7efca;
-  font-family: 'Open Sans', sans-serif;
-  color: #66290f;
-  font-size: ;
-  line-height: ;
+  font-family: 'Roboto', sans-serif;
+  background-color: lemonchiffon;
+}
+section {
+  margin: 10px 0px;
 }
 
 h1, h2 {
-  font-family: 'Roboto', sans-serif;
-  margin-top: 2px;
-  margin-bottom: 10px;
+  /* font-family: 'Open Sans', sans-serif; */
 }
 
+h3 {
+  text-align: center;
+}
+
+/*
 a {
   color: #66290f;
   font-weight: bold;
-}
-
-.container {
-  width: 50%;
-  margin: auto;
-}
-
-.card {
-  margin: 20px;
-  padding: 5px;
-  background-color: white;
-  /* border: solid #66290f 2px; */
-  border-radius: 20px;
-  text-align: center;
-  box-shadow: 0px 0px 16px rgba(0,0,0,0.3);
 }
 
 .brown-btn {
@@ -47,14 +46,12 @@ a {
   width: 30%;
   height: auto;
   border-radius: 10%;
-  /* filter: drop-shadow(2px 4px 8px #585858); */
 }
 
 .cat-card {
   margin: 20px;
   padding-top: 5px;
   background-color: white;
-  /* border: solid #66290f 2px; */
   border-radius: 20px;
   text-align: center;
   box-shadow: 0px 0px 16px rgba(0,0,0,0.3);
@@ -66,10 +63,7 @@ a {
   border-radius: 0px 0px 17px 17px;
 }
 
-ul {
-  list-style: none;
-  padding: 0px;
-}
+
 
 li {
   display: inline-block;
@@ -81,20 +75,20 @@ li {
 }
 
 @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
+  /* For a screen < 960px, this CSS will be read
   .container {
     width: 700px;
   }
 }
 @media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
+  /* For a screen < 720px, this CSS will be read
   .container {
     width: 500px;
   }
 }
 @media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
+  /* For a screen < 540px, this CSS will be read
   .container {
     width: 300px;
   }
-}
+} */

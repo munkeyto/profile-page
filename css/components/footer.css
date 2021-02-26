@@ -1,0 +1,15 @@
+footer {
+    background-color: hotpink;
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+
+/* nav{ 
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 30px;
+} */ 
